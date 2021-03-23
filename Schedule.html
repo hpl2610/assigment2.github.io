@@ -1,0 +1,227 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!--in order to make the website reponsive---->
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<!--gg font-->
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Recursive&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap" rel="stylesheet">
+<style>
+
+
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+  body,h1,h2{font-family: 'Recursive', sans-serif;}
+body, html {height: 100%}
+p {line-height: 2}
+ /*button*/
+.button {
+  background-color: #ff4301; /* Orange */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #ff4301;
+  color: black;
+  border: 2px solid #555555;
+}
+
+.button1:hover {
+  background-color: white;
+  color: black;
+}
+/*add button*/
+  #more {display: none;}
+  /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/*fotter*/
+ 
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #ff4301;
+   color: white;
+   text-align: center;
+}
+  </style>
+ <!-- Java scrip-->
+  <script > function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+</script>
+</head>
+
+<body>
+  <!--Navbar-->
+
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    
+  <!-- Brand/logo -->
+  <a style="font-family: 'Recursive', sans-serif;" class="navbar-brand" href="Fcamppage.html">Fcamp</a>
+  
+  <!-- Links -->
+  <ul class="navbar-nav ml-auto">
+ 
+    <li class="nav-item">
+      <a style="font-family: 'Recursive', sans-serif;" class="nav-link" href="#Invitation">Invitation</a>
+    </li>
+    <li class="nav-item">
+      <a style="font-family: 'Recursive', sans-serif;" class="nav-link" href="Schedule.html">Event Schedule</a>
+    </li>
+    <li class="nav-item">
+      <a style="font-family: 'Recursive', sans-serif;" class="nav-link" href="#lifeatfu">Life at FU</a>
+    </li>
+    <li class="nav-item">
+      <a style="font-family: 'Recursive', sans-serif;" class="nav-link" href="#foodprefence">Food preference</a>
+    </li>
+    <li class="nav-item">
+      <a style="font-family: 'Recursive', sans-serif;" class="nav-link" href="#Register">Register</a>
+    </li>
+  </ul>
+</nav>
+<br><br><br><br>
+<div class="container">
+  <h2 style="color: #ff4301"><b>Event Schedule<b></h2>
+  <p>Below is the specific schedule of the event</p>            
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th style="color: #ff4301">Timeline</th>
+        <th style="color: #ff4301">Schedule</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>8:00-9:00</td>
+        <td>OPENING</td>
+        
+      </tr>
+      <tr>
+        <td>9:00-9:30</td>
+        <td>𝐁𝐈𝐆 𝐆𝐀𝐌𝐄 𝟏:  BỘ BINH THẦN TỐC</td>
+        
+      </tr>
+      <tr>
+        <td>9:45-10:30</td>
+        <td>𝐁𝐈𝐆 𝐆𝐀𝐌𝐄 𝟐: NGỰ LÂM LÊN ĐỒ</td>
+       
+      </tr>
+      <tr>
+        <td>10:30-11:15</td>
+        <td>𝐁𝐈𝐆 𝐆𝐀𝐌𝐄 𝟑: THUỶ CHIẾN TRÊN CẠN</td>
+       
+      </tr>
+      <tr>
+        <td>11:15-12:00</td>
+        <td>𝐈𝐆 𝐆𝐀𝐌𝐄 𝟒: THỬ THÁCH LIÊN HOÀN</td>
+       
+      </tr>
+      <tr>
+        <td>12:00-14:00</td>
+        <td>RESTED AND PARTY</td>
+       
+      </tr>
+      <tr>
+        <td>14:00-14:45</td>
+        <td>𝐁𝐈𝐆 𝐆𝐀𝐌𝐄 𝟓: KỴ THƯƠNG TRANH TÀI</td>
+       
+      </tr>
+      <tr>
+        <td>15:00-15:45</td>
+        <td>𝐁𝐈𝐆 𝐆𝐀𝐌𝐄 𝟔: KỴ SĨ TRANH HÙNG</td>
+       
+      </tr>
+      <tr>
+        <td>15:45-17:00</td>
+        <td>ENTERTAIMENT PROGRAM</td>
+       
+      </tr>
+      <tr>
+        <td>17:00-17:30</td>
+        <td>CLOSING AND STATEMENTS</td>
+       
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+</body>
+</html>
